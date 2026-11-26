@@ -9,10 +9,12 @@
   @media (prefers-color-scheme: dark) { :root { --bg:#09090b; --card:#141417; --text:#f4f4f5; --muted:#a1a1aa; --accent:#c8f031; --line:rgba(255,255,255,.08); } }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; }
-  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  nav.langs { color:var(--muted); font-size:14px; margin:0 0 24px; }
   .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:13px; margin:0; }
   h1 { font-size:40px; line-height:1.1; margin:8px 0 4px; letter-spacing:-.02em; }
-  .updated { color:var(--muted); margin:0 0 32px; }
+  .updated { color:var(--muted); margin:0 0 8px; }
+  .note { color:var(--muted); font-size:14px; margin:0 0 24px; }
   section { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:20px 22px; margin:0 0 14px; }
   section.summary { border-color:var(--accent); }
   h2 { font-size:19px; margin:0 0 8px; }
@@ -25,9 +27,11 @@
 </head>
 <body>
 <main>
+<nav class="langs"><strong>Nederlands</strong> · <a href="en/terms.html" hreflang="en">English</a> · <a href="fr/terms.html" hreflang="fr">Français</a></nav>
 <p class="eyebrow">FitLog</p>
 <h1>Gebruiksvoorwaarden</h1>
 <p class="updated">Bijgewerkt op 27 november 2026</p>
+<div style="height:24px"></div>
 <section class="summary">
   <h2>Kort samengevat</h2>
   
